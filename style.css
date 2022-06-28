@@ -1,0 +1,89 @@
+        * {
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .heading {
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .container {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .border1 {
+            border: 2px solid black;
+            padding: 16px 200px 25px 190px;
+            border-radius: 10px;
+        }
+        
+        .container1 {
+            display: flex;
+            text-align: center;
+            gap: 10px;
+            justify-content: center;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .border2 {
+            border: 2px solid black;
+            padding: 16px 117px 25px 172px;
+            border-radius: 8px;
+        }
+        
+        .border3 {
+            border: 2px solid black;
+            border-radius: 8px;
+            padding: 19px 33px 22px 36px;
+        }
+        
+        .container2 {
+            display: flex;
+            text-align: center;
+            gap: 10px;
+            justify-content: center;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .border4 {
+            border: 2px solid black;
+            border-radius: 8px;
+            padding: 19px 33px 22px 36px;
+        }
+        
+        .border5 {
+            border: 2px solid black;
+            padding: 16px 117px 25px 172px;
+            border-radius: 8px;
+        }
+        
+        @media screen and (max-width:480px) {
+            .border1 {
+                flex-wrap: wrap;
+                padding: 16px 117px 25px 172px;
+            }
+            .border1>h1 {
+                align-items: center;
+                text-align: center;
+            }
+            .border3 {
+                padding: 16px 117px 25px 172px;
+            }
+            .border4 {
+                padding: 19px 69px 22px 41px;
+            }
+            .border5 {
+                padding: 19px 69px 22px 41px;
+            }
+        }
+        
+        ;
