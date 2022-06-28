@@ -69,20 +69,19 @@
         @media screen and (max-width:480px) {
             .border1 {
                 flex-wrap: wrap;
-                padding: 16px 117px 25px 172px;
+                padding: 20px 115px 20px 115px;
             }
-            .border1>h1 {
-                align-items: center;
-                text-align: center;
+            .border2 {
+                padding: 20px 115px 20px 115px;
             }
             .border3 {
-                padding: 16px 117px 25px 172px;
+                padding: 20px 115px 20px 115px;
             }
             .border4 {
-                padding: 19px 69px 22px 41px;
+                padding: 19px 45px 22px 45px;
             }
             .border5 {
-                padding: 19px 69px 22px 41px;
+                padding: 19px 45px 22px 45px;
             }
         }
         
